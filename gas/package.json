@@ -1,0 +1,24 @@
+{
+  "name": "gas-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "typedoc": "typedoc --out ./docs/ ./src/",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx tslint ./src/*.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@google/clasp": "^2.0.1",
+    "tslint": "^5.12.1",
+    "typescript": "^3.2.4"
+  },
+  "dependencies": {
+    "@types/google-apps-script": "0.0.35",
+    "typedoc": "^0.14.2"
+  }
+}
