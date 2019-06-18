@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  hello:
+    build: ./hello
+    links:
+      - hello2
+  hello2:
+    build: ./hello2
