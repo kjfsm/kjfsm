@@ -1,4 +1,6 @@
-FROM alpine:latest
+FROM ubuntu
 RUN mkdir /myvol
 RUN echo "hello volume" > /myvol/greeting
-VOLUME [ "/myvold" ]
+VOLUME [ "/myvol" ]
+RUN echo "test"
+RUN echo /myvol/greeting

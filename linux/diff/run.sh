@@ -1,0 +1,1 @@
+diff a.txt b.txt
