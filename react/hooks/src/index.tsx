@@ -1,8 +1,8 @@
-import * as React from "react";
+import React from "react";
 import { render } from "react-dom";
 import Component from "./component";
 
-const App: React.SFC = () => (
+const App: React.FC = () => (
  <div>Hello World App</div>
 );
 
