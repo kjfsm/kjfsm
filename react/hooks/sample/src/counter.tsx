@@ -11,6 +11,6 @@ const Counter: React.FC<CounterProps> = (props) => {
             <div>{props.count}</div>
             <button onClick={() => props.setCount(props.count + 1)}>add2</button>
         </>
-    )
-}
+    );
+};
 export default Counter;
