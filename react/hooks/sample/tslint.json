@@ -1,0 +1,15 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+      "tslint:latest"
+    ],
+    "jsRules": {},
+    "rules": {
+      "interface-name":false
+    },
+    "rulesDirectory": [],
+    "exclude": [
+      "node_modules"
+    ]
+  }
+  
